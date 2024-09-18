@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ultimate Destiny and Edu Hub</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"
+        integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/52028c8db6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="" /></a>
+            <div class="nav-links" id="navl">
+                <i class="fa fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index.html">EXPLORE</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+         <h1> About us </h1>
+    </section>
+
+
+    <section class="about-us">
+           <div class="row">
+                 <div class="about-col">
+                    <h1>Ultimate Destiny is the most comfortable institution.</h1>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati enim et sapiente magni libero, eligendi hic fuga ad beatae nisi eum pariatur. Quasi placeat, repellendus enim laboriosam mollitia commodi incidunt natus, soluta tempore, cum minus est quis quos. Rem nesciunt perferendis vel necessitatibus at in quasi corrupti modi possimus! Dolor quaerat doloremque libero veritatis tempore odit facere omnis eaque ab. Inventore similique repudiandae eum molestiae sed nisi recusandae minima velit molestias voluptatem non unde quae praesentium, laboriosam quisquam itaque maxime officiis magni ad labore asperiores! Harum aperiam voluptas delectus ratione commodi necessitatibus impedit sunt. Sint aperiam perferendis ipsam! Pariatur, ex?</p>
+
+                    <a href="index.html" class="hero-btn red-btn">EXPLORE NOW</a>
+                 </div>
+                 
+                 
+           
+
+                 <div class="about-col">
+                    <img src="images/about.jpg" alt="">
+                 </div>
+
+
+           </div>
+
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+        <h4> About us </h4>
+        <p> Ultimate destiny is the trustworthy educational institution which focuses on the quality education which is
+            meant to be provided to an individual.<br> Trust us. Your future is our responsibility. </p>
+
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+
+        <p> Credits: Prashant Adhikari ( <i class="fa-brands fa-instagram"></i> pr4shant__xd )</p>
+    </section>
+
+    <script>
+        var navl = document.getElementById("navl");
+
+        function showmenu() {
+            navl.style.right = "0";
+        }
+        function hidemenu() {
+            navl.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
